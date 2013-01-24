@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1518c25-439a-44c1-82ab-8ab9863e6ba9" name="Default" comment="Setting up GIT ...">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keys/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misc/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Hosts.json.old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/checkConnectivity.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remount.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runCommand.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Hosts.json" afterPath="$PROJECT_DIR$/conf/Hosts.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/consoleEffects.py" afterPath="$PROJECT_DIR$/misc/consoleEffects.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generateMachineNames.py" afterPath="$PROJECT_DIR$/misc/generateMachineNames.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hostnames.txt" afterPath="$PROJECT_DIR$/misc/hostnames.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xlBaseOperations.py" afterPath="$PROJECT_DIR$/xlManager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="c1518c25-439a-44c1-82ab-8ab9863e6ba9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RootScripts.iws" />
@@ -37,7 +25,7 @@
       <file leaf-file-name="xlManager.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xlManager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="18" selection-start="3977" selection-end="3977" vertical-scroll-proportion="3.9411764">
+            <state line="134" column="18" selection-start="3977" selection-end="3977" vertical-scroll-proportion="3.6470587">
               <folding>
                 <element signature="e#42#51#0" expanded="true" />
               </folding>
@@ -328,7 +316,11 @@
       <created>1359056999759</created>
       <updated>1359056999759</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Clean up project">
+      <created>1359057614891</created>
+      <updated>1359057614891</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -390,7 +382,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up GIT ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up project" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -406,6 +398,7 @@
     <MESSAGE value="Initial Commit." />
     <MESSAGE value="Setting up GIT" />
     <MESSAGE value="Setting up GIT ..." />
+    <MESSAGE value="Clean up project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,7 +457,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xlManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="18" selection-start="3977" selection-end="3977" vertical-scroll-proportion="3.9411764">
+        <state line="134" column="18" selection-start="3977" selection-end="3977" vertical-scroll-proportion="3.6470587">
           <folding>
             <element signature="e#42#51#0" expanded="true" />
           </folding>
