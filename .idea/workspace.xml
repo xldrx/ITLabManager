@@ -283,7 +283,11 @@
       <created>1359056901519</created>
       <updated>1359056901519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Setting up GIT ...">
+      <created>1359056973431</created>
+      <updated>1359056973431</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
