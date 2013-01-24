@@ -279,7 +279,11 @@
       <created>1359056833830</created>
       <updated>1359056833830</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Setting up GIT ...">
+      <created>1359056901519</created>
+      <updated>1359056901519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -341,7 +345,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up GIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting up GIT ..." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -356,6 +360,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial Commit." />
     <MESSAGE value="Setting up GIT" />
+    <MESSAGE value="Setting up GIT ..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
