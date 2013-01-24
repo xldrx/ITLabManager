@@ -21,7 +21,7 @@ actions={
 
 
 def setupParser():
-    parser = argparse.ArgumentParser(description="Test Arg Parsing in Python", prog="XLParser")
+    parser = argparse.ArgumentParser(description="Test Arg Parsing in Python", prog="xlManager")
 
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("-c", "--Command", help="Command to run on each computers", dest="command")
@@ -62,7 +62,7 @@ def compileString(basecommand, host):
 
 def readListFile():
     list = []
-    with open("Hosts.json","r") as fp:
+    with open("conf/Hosts.json","r") as fp:
     	file = fp.read()
     	list = jsonpickle.decode(file)
     return list

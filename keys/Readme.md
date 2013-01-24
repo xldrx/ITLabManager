@@ -1,0 +1,1 @@
+You should copy your keys here under names: id_rsa, id_rsa.pub

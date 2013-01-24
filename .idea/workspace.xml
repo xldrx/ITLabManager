@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1518c25-439a-44c1-82ab-8ab9863e6ba9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/xl.xml" />
+    <list default="true" id="c1518c25-439a-44c1-82ab-8ab9863e6ba9" name="Default" comment="Setting up GIT ...">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keys/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misc/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hosts.json.old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/checkConnectivity.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/remount.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runCommand.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Hosts.json" afterPath="$PROJECT_DIR$/conf/Hosts.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/consoleEffects.py" afterPath="$PROJECT_DIR$/misc/consoleEffects.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/generateMachineNames.py" afterPath="$PROJECT_DIR$/misc/generateMachineNames.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/hostnames.txt" afterPath="$PROJECT_DIR$/misc/hostnames.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xlBaseOperations.py" afterPath="$PROJECT_DIR$/xlManager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RootScripts.iws" />
@@ -23,10 +34,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="xlBaseOperations.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xlBaseOperations.py">
+      <file leaf-file-name="xlManager.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xlManager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="379" selection-end="379" vertical-scroll-proportion="0.47058824">
+            <state line="134" column="18" selection-start="3977" selection-end="3977" vertical-scroll-proportion="3.9411764">
               <folding>
                 <element signature="e#42#51#0" expanded="true" />
               </folding>
@@ -34,19 +45,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runCommand.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runCommand.py">
+      <file leaf-file-name="generateMachineNames.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/misc/generateMachineNames.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state line="1" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hostnames.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/misc/hostnames.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="consoleEffects.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consoleEffects.py">
+        <entry file="file://$PROJECT_DIR$/misc/consoleEffects.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="23" column="0" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0">
               <folding />
@@ -70,6 +97,9 @@
         <option value="$PROJECT_DIR$/xlBaseOperations.py" />
         <option value="$PROJECT_DIR$/runCommand.py" />
         <option value="$PROJECT_DIR$/consoleEffects.py" />
+        <option value="$PROJECT_DIR$/keys/Readme.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/xlManager.py" />
       </list>
     </option>
   </component>
@@ -143,8 +173,15 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.xlBaseOperations">
-    <configuration default="false" name="xlBaseOperations" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/misc" />
+      <recent name="$PROJECT_DIR$/conf" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.xlManager">
+    <configuration default="false" name="xlManager" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -155,7 +192,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <module name="RootScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xlBaseOperations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xlManager.py" />
       <option name="PARAMETERS" value="-a Hostname -t 21" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -174,7 +211,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <module name="RootScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/consoleEffects.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/misc/consoleEffects.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -233,12 +270,12 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.xlBaseOperations" />
+      <item index="0" class="java.lang.String" itemvalue="Python.xlManager" />
       <item index="1" class="java.lang.String" itemvalue="Python.consoleEffects" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.xlBaseOperations" />
+        <item index="0" class="java.lang.String" itemvalue="Python.xlManager" />
         <item index="1" class="java.lang.String" itemvalue="Python.consoleEffects" />
       </list>
     </recent_temporary>
@@ -287,7 +324,11 @@
       <created>1359056973431</created>
       <updated>1359056973431</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Setting up GIT ...">
+      <created>1359056999759</created>
+      <updated>1359056999759</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -295,12 +336,12 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32958803" sideWeight="0.49713057" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32958803" sideWeight="0.49713057" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22381635" sideWeight="0.670412" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22381635" sideWeight="0.670412" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32958803" sideWeight="0.4978479" order="-1" side_tool="true" content_ui="tabs" />
@@ -379,25 +420,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runCommand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consoleEffects.py">
+    <entry file="file://$PROJECT_DIR$/misc/consoleEffects.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xlBaseOperations.py">
+    <entry file="file://$PROJECT_DIR$/misc/generateMachineNames.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="379" selection-end="379" vertical-scroll-proportion="0.47058824">
+        <state line="1" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/hostnames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="10" selection-start="328" selection-end="328" vertical-scroll-proportion="0.8235294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keys/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xlManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="18" selection-start="3977" selection-end="3977" vertical-scroll-proportion="3.9411764">
           <folding>
             <element signature="e#42#51#0" expanded="true" />
           </folding>
