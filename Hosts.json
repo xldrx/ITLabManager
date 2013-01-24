@@ -1,0 +1,122 @@
+[
+  {
+    "VirtualName": "Aragorn",
+    "NetworkAddress": "172.16.1.1",
+    "PhysicalName": "pc01"
+  },
+  {
+    "VirtualName": "Arwen",
+    "NetworkAddress": "172.16.1.2",
+    "PhysicalName": "pc02"
+  },
+  {
+    "VirtualName": "Boromir",
+    "NetworkAddress": "172.16.1.3",
+    "PhysicalName": "pc03"
+  },
+  {
+    "VirtualName": "Eomer",
+    "NetworkAddress": "172.16.1.4",
+    "PhysicalName": "pc04"
+  },
+  {
+    "VirtualName": "Eowyna",
+    "NetworkAddress": "172.16.1.5",
+    "PhysicalName": "pc05"
+  },
+  {
+    "VirtualName": "Faramir",
+    "NetworkAddress": "172.16.1.6",
+    "PhysicalName": "pc06"
+  },
+  {
+    "VirtualName": "Figwit",
+    "NetworkAddress": "172.16.1.7",
+    "PhysicalName": "pc07"
+  },
+  {
+    "VirtualName": "Frodo",
+    "NetworkAddress": "172.16.1.8",
+    "PhysicalName": "pc08"
+  },
+  {
+    "VirtualName": "Gandalf",
+    "NetworkAddress": "172.16.1.9",
+    "PhysicalName": "pc09"
+  },
+  {
+    "VirtualName": "Gimli",
+    "NetworkAddress": "172.16.1.10",
+    "PhysicalName": "pc10"
+  },
+  {
+    "VirtualName": "Haldir",
+    "NetworkAddress": "172.16.1.11",
+    "PhysicalName": "pc11"
+  },
+  {
+    "VirtualName": "Haleth",
+    "NetworkAddress": "172.16.1.12",
+    "PhysicalName": "pc12"
+  },
+  {
+    "VirtualName": "Irolas",
+    "NetworkAddress": "172.16.1.13",
+    "PhysicalName": "pc13"
+  },
+  {
+    "VirtualName": "LadyGaladriel",
+    "NetworkAddress": "172.16.1.14",
+    "PhysicalName": "pc14"
+  },
+  {
+    "VirtualName": "Legolas",
+    "NetworkAddress": "172.16.1.15",
+    "PhysicalName": "pc15"
+  },
+  {
+    "VirtualName": "Madril",
+    "NetworkAddress": "172.16.1.16",
+    "PhysicalName": "pc16"
+  },
+  {
+    "VirtualName": "Maglor",
+    "NetworkAddress": "172.16.1.17",
+    "PhysicalName": "pc17"
+  },
+  {
+    "VirtualName": "Merry",
+    "NetworkAddress": "172.16.1.18",
+    "PhysicalName": "pc18"
+  },
+  {
+    "VirtualName": "Morwen",
+    "NetworkAddress": "172.16.1.19",
+    "PhysicalName": "pc19"
+  },
+  {
+    "VirtualName": "Pippin",
+    "NetworkAddress": "172.16.1.20",
+    "PhysicalName": "pc20"
+  },
+  {
+    "VirtualName": "Sam",
+    "NetworkAddress": "172.16.1.21",
+    "PhysicalName": "pc21"
+  },
+  {
+    "VirtualName": "Saruman",
+    "NetworkAddress": "172.16.1.22",
+    "PhysicalName": "pc22"
+  },
+  {
+    "VirtualName": "Sharku",
+    "NetworkAddress": "172.16.1.23",
+    "PhysicalName": "pc23"
+  },
+  {
+    "VirtualName": "TheRing",
+    "NetworkAddress": "172.16.1.24",
+    "PhysicalName": "pc24"
+  }
+]
