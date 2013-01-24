@@ -32,6 +32,7 @@ def setupParser():
     parser.add_argument("-q", "--quiet", help="Will hide all errors", action="store_true", dest="quiet")
     parser.add_argument("--test", help="Will not actually run any command", dest="test", action="store_true")
     parser.add_argument("-ct","--ConnectTimeout", help="Connection Timeout", dest="connectTimeout", type=int, default=1)
+    parser.add_argument("-k", "--key", help="Key file for connecting targets. (default is ./keys/id_rsa)", default="./keys/id_rsa", dest="sshkey")
 
     return parser
 
@@ -79,6 +80,7 @@ def readList():
 def MakeSSHCommand(baseCommand=None, args=None):
     ret = 'ssh root@{address} -o StrictHostKeyChecking=no '
     ret += '-o ConnectTimeout=%s ' %(args.connectTimeout if args else 1)
+    ret += ('-i "%s" ' %args.sshkey) if args else " "
     ret += '"%s" ' % baseCommand if baseCommand else " "
     ret += "2> /dev/null " if args and args.quiet else " "
 
